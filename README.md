@@ -18,11 +18,15 @@ Software configuration
 
 Grab the python script shutdown.py and copy it over to your RPI local folder, for example, at:
 
-  /home/pi/python/shutdown.py
+```
+/home/pi/python/shutdown.py
+```
 
 Modify the /etc/rc.local, by adding the following script line before "exit 0":
 
-  sudo python /home/pi/python/shutdown.py
+```
+sudo python /home/pi/python/shutdown.py
+```
 
 All set! Now restart your RPI ...
 
